@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "/css/Auth.css">
+    <title>EspaçoCar</title>
+    <script src = "/js/Auth.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+<div class = "fundo">
+    <form class = "itensLogin">
+        <div class = "iconeDiv">
+            <img class = "icone" src = "/icone.png">
+            <img class = "titulo" src = "/titulo.png">
+        </div>
+        <div id = "inputsLogin">
+            <input type = "text" id = "login" placeholder="Usuário" spellcheck="false" required>
+            <script>
+                $("#login").keyup(function (event) {
+                    if (event.which === 13) {
+                        $("#botaoLogin").click();
+                    }
+                });
+            </script>
+            <button type = "button" id = "botaoLogin" onclick = "verificarLogin()">
+                <img src = "/login.png" id = "botaoLoginImagem">
+            </button>
+            <input type = "password" id = "senha" placeholder = "Senha" required>
+            <button type = "button" id = "botaoSenha" onclick = "verificarSenha()">
+                <img src = "/login.png" id = "botaoSenhaImagem">
+            </button>
+            <button type = "button" id = "botaoCancelar" onclick="trocarLogin()">
+                <img src = "/xicon.png" id = "botaoCancelarImagem">
+            </button>
+         </div>
+     </form>
+</div> 
+</body>
+</html>
