@@ -68,7 +68,7 @@ img.titulo {
     z-index: 6;
     margin: 0%;
     top: 30%;
-    left: 20%;
+    left: 10%;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -78,7 +78,7 @@ img.titulo {
 #login::placeholder {
         color: white;
         font-size: 100%;
-        font-family: 'Comic Sans MS';
+        font-family: Calibri;
     }
 #login:focus::placeholder {
         color: transparent;
@@ -122,9 +122,9 @@ img.titulo {
     z-index: 6;
     margin: 0%;
     top: 30%;
-    left: 20%;
+    left: 10%;
     color: black;
-    font-family: 'Comic Sans MS';
+    font-family: Calibri;
     display:none;
 }
 #senha:focus {
@@ -137,6 +137,28 @@ img.titulo {
 #senha:focus::placeholder {
         color: transparent;
     }
+
+#botaoVerSenha{
+    background-color: darkgray;
+    border-color: transparent;
+    z-index: 5;
+    position: absolute;
+    left: 63%;
+    top: 30%;
+    height:33%;
+    width: 10%;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+
+#botaoVerSenhaImagem{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
 
 #botaoSenha {
     background-color: transparent;
@@ -182,7 +204,7 @@ img.titulo {
 .font-family {
     height: 30% !important;
     width: 80% !important;
-    font-family: 'Comic Sans MS' !important;
+    font-family: Calibri !important;
     font-size: 14px !important;
     color: black !important;
     text-align: center;

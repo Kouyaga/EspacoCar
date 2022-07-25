@@ -88,3 +88,9 @@ function trocarLogin() {
     $("#botaoCancelar").hide('slow');
     $("#botaoSenha").hide('slow');
 }
+
+function mostrarSenha() {
+    $('#botaoVerSenha').click(function () {
+        $('#senha').get(0).type = 'text';
+    });
+}
