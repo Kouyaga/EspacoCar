@@ -2,6 +2,8 @@ C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\bin\Debug\net6.0\appsettin
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\bin\Debug\net6.0\appsettings.json
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\bin\Debug\net6.0\Projeto.staticwebassets.runtime.json
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\bin\Debug\net6.0\Projeto.exe
+C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\bin\Debug\net6.0\Program.cs
+C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\bin\Debug\net6.0\Properties\launchSettings.json
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\bin\Debug\net6.0\Projeto.deps.json
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\bin\Debug\net6.0\Projeto.runtimeconfig.json
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\bin\Debug\net6.0\Projeto.dll
@@ -16,7 +18,6 @@ C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\Projeto.R
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\Projeto.RazorAssemblyInfo.cs
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\scopedcss\bundle\Projeto.styles.css
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\scopedcss\projectbundle\Projeto.bundle.scp.css
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\Projeto.dll
@@ -24,3 +25,4 @@ C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\refint\Pr
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\Projeto.pdb
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\Projeto.genruntimeconfig.cache
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\ref\Projeto.dll
+C:\Users\leonardo.mathias\Desktop\Leonardo\C#\Projeto\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css

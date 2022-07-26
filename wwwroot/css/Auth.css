@@ -21,9 +21,7 @@
     background-color: gray;
     left: 37.5%;
     top: 25%;
-    min-width: 20%;
-    min-height: 40%;
-    width: 25%;
+    width: 25vw;
     height: 50%;
     z-index: 8;
     padding: 0%;
@@ -57,6 +55,36 @@ img.titulo {
     top: 83%;
 }
 
+#fundoVerSenha {
+    background-color: darkgray;
+    position: absolute;
+    border: 0.1vw solid;
+    border-radius: 2%;
+    border-color: darkgray;
+    width: 12%;
+    height: 25%;
+    z-index: 6;
+    margin: 0%;
+    top: 30%;
+    left: 60%;
+}
+
+#fundoEsconderSenha {
+    background-color: darkgray;
+    position: absolute;
+    border: 0.1vw solid;
+    border-radius: 2%;
+    border-color: darkgray;
+    z-index: 6;
+    width: 12%;
+    height: 25%;
+    z-index: 6;
+    margin: 0%;
+    top: 30%;
+    left: 60%;
+    display: none;
+}
+
 #login {
     background-color: darkgray;
     position: absolute;
@@ -85,9 +113,9 @@ img.titulo {
     }
 
 #inputsLogin{
-    position: absolute;
+    position: relative;
     left: 20%;
-    top: 75%;
+    top: 70%;
     width: 60%;
     height: 20%;
 }
@@ -138,26 +166,71 @@ img.titulo {
         color: transparent;
     }
 
-#botaoVerSenha{
-    background-color: darkgray;
-    border-color: transparent;
-    z-index: 5;
-    position: absolute;
-    left: 63%;
-    top: 30%;
-    height:33%;
-    width: 10%;
-    cursor: pointer;
-    display: none;
-    transition: 0.3s;
-}
+@media only screen and (min-height: 901px) {
+    #botaoVerSenha {
+        background-color: transparent;
+        border-color: transparent;
+        z-index: 6;
+        position: relative;
+        left: 63%;
+        top: 23%;
+        height: 25%;
+        width: 10%;
+        cursor: pointer;
+        display: none;
+        transition: 0.3s;
+    }
 
-#botaoVerSenhaImagem{
-    position:absolute;
-    width: 100%;
-    height: 100%;
-    top: 0%;
-    left: 0%;
+
+    #botaoVerSenhaImagem {
+        position: absolute;
+        z-index: 7;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+    }
+
+    #botaoEsconderSenhaImagem {
+        position: absolute;
+        z-index: 7;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+        display: none;
+    }
+}
+@media only screen and (max-height: 900px) {
+    #botaoVerSenha {
+        background-color: transparent;
+        border-color: transparent;
+        z-index: 6;
+        position: relative;
+        left: 62%;
+        top: 7%;
+        height: 25%;
+        width: 10%;
+        cursor: pointer;
+        display: none;
+        transition: 0.3s;
+    }
+
+
+    #botaoVerSenhaImagem {
+        position: absolute;
+        z-index: 7;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+    }
+
+    #botaoEsconderSenhaImagem {
+        position: absolute;
+        z-index: 7;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+        display: none;
+    }
 }
 
 #botaoSenha {
@@ -202,8 +275,8 @@ img.titulo {
 }
 
 .font-family {
-    height: 30% !important;
-    width: 80% !important;
+    height: 23% !important;
+    width: 70% !important;
     font-family: Calibri !important;
     font-size: 14px !important;
     color: black !important;
@@ -221,7 +294,7 @@ img.titulo {
 }
 
 #swal2.title{
-    left:1.6% !important;
+    left: 1.6% !important;
 }
 .swal2-popup.swal2-toast .swal2-icon{
     left: 1.6% !important;

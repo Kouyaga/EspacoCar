@@ -3,18 +3,19 @@
     login = $('#login').val();
     
     if (login == usuarioAuth) {
-        $("#senha").show('slow');
-        $("#login").hide('slow');
+        $("#senha").show();
+        $("#login").hide();
         $("#botaoLogin").hide('slow');
         $("#botaoCancelar").show('slow');
         $("#botaoSenha").show('slow');
-        
+        $("#fundoVerSenha").hide();
+        $("#fundoEsconderSenha").show();
     } else {
         Swal.fire({
             title: 'Usuário Inválido!',
             backdrop: false,
             toast: true,
-            position: 'top-end',
+            position: 'top',
             text: '',
             icon: 'error',
             iconColor: 'darkred',
@@ -28,11 +29,13 @@
                 popup: 'font-family'
             }
         })
-        $("#senha").hide('slow');
-        $("#login").show('slow');
+        $("#senha").hide();
+        $("#login").show();
         $("#botaoLogin").show('slow');
         $("#botaoCancelar").hide('slow');
         $("#botaoSenha").hide('slow');
+        $("#fundoVerSenha").hide();
+        $("#fundoEsconderSenha").show();
     }
    
 }
@@ -45,7 +48,7 @@ function verificarSenha() {
             title: 'Senha Correta',
             backdrop: false,
             toast: true,
-            position: 'top-end',
+            position: 'top',
             text: '',
             icon: 'success',
             iconColor: 'lightgreen',
@@ -59,12 +62,13 @@ function verificarSenha() {
                 popup: 'font-family'
             }
         })
+         $('#realizarLogin').click();
     } else {
         Swal.fire({
             title: 'Senha Inválida!',
             backdrop: false,
             toast: true,
-            position: 'top-end',
+            position: 'top',
             text: '',
             icon: 'error',
             iconColor: 'darkred',
@@ -79,18 +83,28 @@ function verificarSenha() {
             }
         })
     }
+
 }
 
 function trocarLogin() {
-    $("#senha").hide('slow');
-    $("#login").show('slow');
+    $("#senha").hide();
+    $("#login").show();
     $("#botaoLogin").show('slow');
     $("#botaoCancelar").hide('slow');
     $("#botaoSenha").hide('slow');
+    $('#botaoVerSenha').hide();
+    $("#fundoVerSenha").hide();
+    $("#fundoEsconderSenha").show();
 }
 
 function mostrarSenha() {
-    $('#botaoVerSenha').click(function () {
+    if ($('#senha').get(0).type == 'password') {
         $('#senha').get(0).type = 'text';
-    });
+        $('#botaoVerSenhaImagem').hide();
+        $('#botaoEsconderSenhaImagem').show();
+    } else {
+        $('#senha').get(0).type = 'password';
+        $('#botaoEsconderSenhaImagem').hide();
+        $('#botaoVerSenhaImagem').show();
+    }
 }
