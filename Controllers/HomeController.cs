@@ -12,12 +12,7 @@ namespace Projeto.Controllers
         {
             _logger = logger;
         }
-
-        public IActionResult Index()
-        {
-            return View();
-        }
-
+             
         public IActionResult Auth()
         {
             return View();
