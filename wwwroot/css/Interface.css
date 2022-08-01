@@ -1,0 +1,121 @@
+﻿html {
+    background-color: darkgray;
+    width: 100vw;
+    height: 100vh;
+    z-index: 11;
+}
+
+body {
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    margin: 0px;
+}
+
+.fundo {
+    background-color: darkgray;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 9;
+}
+
+#barraLateralEsquerda {
+    background-color: rgb(61, 61, 61);
+    position: fixed;
+    left: 0%;
+    width: 3vw;
+    height: 100vh;
+    transition: 0.3s;
+}
+
+    #barraLateralEsquerda:hover {
+        width: 10vw;
+        transition: 0.3s;
+        background-color: rgb(95, 95, 95);
+    }
+
+#botaoPerfil {
+    position: fixed;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+    width: 3vw;
+    height: 5vh;
+    top: 0%;
+}
+
+#botaoConsultar {
+    position: fixed;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+    width: 3vw;
+    height: 5vh;
+    top: 7.5%;
+}
+
+#botaoConfiguracao {
+    position: fixed;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+    width: 3vw;
+    height: 5vh;
+    top: 15%
+}
+
+#perfilSVG, #consultarSVG, #engrenagemSVG {
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+    #perfilSVG:hover, #consultarSVG:hover, #engrenagemSVG:hover {
+        color: rgb(255, 255, 255);
+        transition: 0.3s;
+    }
+
+#perfilLabel {
+    position: fixed;
+    font-size: 80%;
+    font-weight: bolder;
+    font-family: cursive;
+    top: 1.3%;
+    left: 3%;
+    transition: 0.3s;
+}
+
+    #perfilLabel:hover, #consultarLabel:hover, #configuracaoLabel:hover {
+        color: rgb(255, 255, 255);
+        transition: 0.3s;
+    }
+
+#consultarLabel {
+    position: fixed;
+    font-size: 80%;
+    font-weight: bolder;
+    font-family: cursive;
+    top: 9%;
+    left: 3%;
+    transition: 0.3s;
+}
+
+#configuracaoLabel {
+    position: fixed;
+    font-size: 80%;
+    font-weight: bolder;
+    font-family: cursive;
+    top: 16.3%;
+    left: 3%;
+    transition: 0.3s;
+}
