@@ -35,7 +35,6 @@ body {
         transition: 0.3s;
         background-color: rgb(95, 95, 95);
     }
-
 #botaoPerfil {
     position: fixed;
     background-color: transparent;
@@ -69,7 +68,7 @@ body {
     top: 15%
 }
 
-#perfilSVG, #consultarSVG, #engrenagemSVG {
+#perfilSVG, #consultarSVG, #configuracaoSVG {
     position: relative;
     background-color: transparent;
     border-color: transparent;
@@ -80,7 +79,7 @@ body {
     transition: 0.3s;
 }
 
-    #perfilSVG:hover, #consultarSVG:hover, #engrenagemSVG:hover {
+    #botaoPerfil:hover, #botaoConsultar:hover, #botaoConfiguracao:hover{
         color: rgb(255, 255, 255);
         transition: 0.3s;
     }
@@ -93,12 +92,8 @@ body {
     top: 1.3%;
     left: 3%;
     transition: 0.3s;
+    display: none;
 }
-
-    #perfilLabel:hover, #consultarLabel:hover, #configuracaoLabel:hover {
-        color: rgb(255, 255, 255);
-        transition: 0.3s;
-    }
 
 #consultarLabel {
     position: fixed;
@@ -108,6 +103,7 @@ body {
     top: 9%;
     left: 3%;
     transition: 0.3s;
+    display: none;
 }
 
 #configuracaoLabel {
@@ -118,4 +114,5 @@ body {
     top: 16.3%;
     left: 3%;
     transition: 0.3s;
+    display: none;
 }
