@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K9fiC65P8wRGTSFM7dP4sXb19KP1orJ86oAwx6ugTKM=",
+  "Hash": "VFkpS3r2ebvuEYTwWKlo4h1LJ8HJZzwexTQ0GEBIOQQ=",
   "Source": "Projeto",
   "BasePath": "_content/Projeto",
   "Mode": "Default",
@@ -68,12 +68,12 @@
       "OriginalItemSpec": "wwwroot\\css\\Auth.css"
     },
     {
-      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\Projeto\\wwwroot\\css\\Interface.css.css",
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\Projeto\\wwwroot\\css\\Interface.css",
       "SourceId": "Projeto",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\Projeto\\wwwroot\\",
       "BasePath": "_content/Projeto",
-      "RelativePath": "css/Interface.css.css",
+      "RelativePath": "css/Interface.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +82,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Interface.css.css"
+      "OriginalItemSpec": "wwwroot\\css\\Interface.css"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\Projeto\\wwwroot\\css\\site.css",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Auth.js"
+    },
+    {
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\Projeto\\wwwroot\\js\\Interface.js",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\Projeto\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "js/Interface.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Interface.js"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\Projeto\\wwwroot\\js\\site.js",

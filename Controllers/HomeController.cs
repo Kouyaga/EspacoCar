@@ -15,6 +15,7 @@ namespace Projeto.Controllers
              
         public IActionResult Auth()
         {
+
             return View();
         }
 
