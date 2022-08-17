@@ -19,6 +19,17 @@ namespace Projeto.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult VerificarLogin(string login)
+        {
+            string loginAUTH = "admin";
+
+            if (loginAUTH == login)
+                return Json(new { ok = true });
+            else
+                return Json(new { ok = false });
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
