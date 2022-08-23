@@ -6,7 +6,12 @@ namespace Projeto.Controllers
 {
     public class InterfaceController : Controller
     {
-        public IActionResult Interface()
+        public IActionResult Index()
+        {
+            return View();
+        }
+        
+        public IActionResult ConsultarClientesVIEW()
         {
             return View();
         }

@@ -19,12 +19,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBdXRoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/Interface.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXEludGVyZmFjZS5jc2h0bWw=
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/ConsultarClientesVIEW.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXENvbnN1bHRhckNsaWVudGVzVklFVy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -38,15 +46,3 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Auth/_Auth.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxfQXV0aC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-ctan31bthy
-
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/_Interface.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXF9JbnRlcmZhY2UuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-d7k6ud5z5p
-
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-s2go3x8bzm

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bm9uZyEXL0gs4/bBQcCc0BOLQ/Yyo5OcyGNhfMJ1GQI=",
+  "Hash": "8CHrIZqW8NFQmusgj2cvPD8zTEcn2ZegiLppqfzHD6M=",
   "Source": "Projeto",
   "BasePath": "_content/Projeto",
   "Mode": "Default",
@@ -17,38 +17,21 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Projeto.styles.css",
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\_Layout.css",
       "SourceId": "Projeto",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
       "BasePath": "_content/Projeto",
-      "RelativePath": "Projeto.styles.css",
+      "RelativePath": "css/_Layout.css",
       "AssetKind": "All",
-      "AssetMode": "CurrentProject",
+      "AssetMode": "All",
       "AssetRole": "Primary",
       "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Projeto.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Projeto.bundle.scp.css",
-      "SourceId": "Projeto",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/Projeto",
-      "RelativePath": "Projeto.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Projeto.bundle.scp.css"
+      "OriginalItemSpec": "wwwroot\\css\\_Layout.css"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\Auth.css",
@@ -83,23 +66,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Interface.css"
-    },
-    {
-      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\Interface.css.css",
-      "SourceId": "Projeto",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
-      "BasePath": "_content/Projeto",
-      "RelativePath": "css/Interface.css.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Interface.css.css"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\site.css",

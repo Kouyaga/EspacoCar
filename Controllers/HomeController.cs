@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Projeto.Models;
 using System.Diagnostics;
+using System.IO;
 
 namespace Projeto.Controllers
 {
@@ -12,22 +13,42 @@ namespace Projeto.Controllers
         {
             _logger = logger;
         }
-             
+
         public IActionResult Auth()
         {
-
             return View();
         }
 
         [HttpPost]
         public IActionResult VerificarLogin(string login)
         {
-            string loginAUTH = "admin";
+            StreamReader Reader = new StreamReader(@"C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\Data\Login.txt", false);
+            string loginAUTH = Reader.ReadLine();
+            Reader.Close();
 
             if (loginAUTH == login)
+            {
                 return Json(new { ok = true });
+            }
             else
+            {
                 return Json(new { ok = false });
+            }
+        }
+        public IActionResult VerificarSenha(string senha)
+        {
+            StreamReader Reader = new StreamReader(@"C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\Data\Senha.txt", false);
+            string senhaAUTH = Reader.ReadLine();
+            Reader.Close();
+
+            if (senhaAUTH == senha)
+            {
+                return Json(new { ok = true });
+            }
+            else
+            {
+                return Json(new { ok = false });
+            }
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

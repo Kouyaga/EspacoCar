@@ -115,11 +115,7 @@ C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\obj\Debug\net6.0\Pr
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\obj\Debug\net6.0\Projeto.RazorAssemblyInfo.cs
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\obj\Debug\net6.0\scopedcss\Views\Auth\_Auth.cshtml.rz.scp.css
-C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\obj\Debug\net6.0\scopedcss\Views\Interface\_Interface.cshtml.rz.scp.css
-C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\obj\Debug\net6.0\scopedcss\bundle\Projeto.styles.css
-C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\obj\Debug\net6.0\scopedcss\projectbundle\Projeto.bundle.scp.css
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\obj\Debug\net6.0\Projeto.csproj.CopyComplete
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\obj\Debug\net6.0\Projeto.dll
 C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\obj\Debug\net6.0\refint\Projeto.dll
