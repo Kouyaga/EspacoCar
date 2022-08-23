@@ -1,22 +1,35 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Projeto</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Projeto.styles.css" asp-append-version="true" />
-</head>
-<body>   
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <link rel="stylesheet" href="~/Projeto.styles.css" asp-append-version="true" >
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <link rel="stylesheet" href="~/css/_Layout.css"/>
+</head>
+<body>
+    <main class = "fundo">
+        <div id = "barraSuperior">
+            <button type = "button" value= "" id = "botaoPerfil">
+                <i class="bi bi-person-circle fa-3x" id = "perfilIcon"></i>
+            </button>
+            <button type = "button" value = "" id = "botaoConsultar" asp-controller = "Interface" asp-action="ConsultarClientesVIEW">
+                <i class="bi bi-search fa-3x" id = "consultarIcon"></i>
+            </button>
+            <button type = "button" id = "botaoConfiguracao"> 
+                <i class="bi bi-gear-fill fa-3x" id = "configuracaoIcon"></i>                
+            </button>
+            <button type = "button" id = "botaoClientes">
+                <i class="bi bi-people-fill fa-3x" id = "clientesIcon"></i>
+            </button>
+        </div>
+            @RenderBody()
+    </main>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

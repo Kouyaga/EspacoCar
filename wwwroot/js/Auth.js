@@ -42,53 +42,59 @@
 
             }
         },
-    })    
-    }
+    })
+}
 
 function verificarSenha() {
-    senhaAuth = "admin";
     senha = $('#senha').val();
-     if (senha == senhaAuth) {
-        Swal.fire({
-            title: 'Senha Correta',
-            backdrop: false,
-            toast: true,
-            position: 'top',
-            text: '',
-            icon: 'success',
-            iconColor: 'lightgreen',
-            cancelButtonColor: 'darkred',
-            confirmButtonColor: 'lightgreen',
-            confirmButtonText: 'Confirmar',
-            background: 'gray',
-            timer: 5000,
-            timerProgressBar: true,
-            customClass: {
-                popup: 'font-family'
-            }
-        })
-         $('#realizarLogin').click();
-    } else {
-        Swal.fire({
-            title: 'Senha Inválida!',
-            backdrop: false,
-            toast: true,
-            position: 'top',
-            text: '',
-            icon: 'error',
-            iconColor: 'darkred',
-            cancelButtonColor: 'darkred',
-            confirmButtonColor: 'darkred',
-            confirmButtonText: 'Fechar',
-            background: 'gray',
-            timer: 5000,
-            timerProgressBar: true,
-            customClass: {
-                popup: 'font-family'
-            }
-        })
-    }
-
+    $.ajax({
+        type: "POST",
+        url: document.location.origin + "/Home/VerificarSenha",
+        data: { senha },
+        success: function (retorno) {
+            if (retorno.ok) {
+            Swal.fire({
+                title: 'Realizando Login...',
+                backdrop: false,
+                toast: true,
+                position: 'top',
+                text: '',
+                icon: 'success',
+                iconColor: 'lightgreen',
+                cancelButtonColor: 'darkred',
+                confirmButtonColor: 'lightgreen',
+                confirmButtonText: 'Confirmar',
+                background: 'gray',
+                timer: 500,
+                timerProgressBar: true,
+                customClass: {
+                    popup: 'font-family'
+                }
+            }).then(function () {
+                $('#realizarLogin').click();
+            });
+        } else {
+            Swal.fire({
+                title: 'Senha Inválida!',
+                backdrop: false,
+                toast: true,
+                position: 'top',
+                text: '',
+                icon: 'error',
+                iconColor: 'darkred',
+                cancelButtonColor: 'darkred',
+                confirmButtonColor: 'darkred',
+                confirmButtonText: 'Fechar',
+                background: 'gray',
+                timer: 2500,
+                timerProgressBar: true,
+                customClass: {
+                    popup: 'font-family'
+                }
+            })
+        }
+    },
+})
 }
 
 function trocarLogin() {

@@ -1,0 +1,108 @@
+﻿html {
+    width: 100vw;
+    height: 100vh;
+    z-index: 11;
+}
+
+body {
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    margin: 0px;
+}
+
+.fundo {
+    background-color: lightgray;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 9;
+}
+
+#barraSuperior {
+    background-color: rgb(101, 101, 101);
+    position: fixed;
+    left: 0%;
+    width: 100vw;
+    height: 6vh;
+    transition: 0.3s;
+}
+
+    #barraSuperior:hover {
+        height: 7vw;
+        transition: 0.3s;
+        background-color: rgb(115, 115, 115);
+    }
+
+#botaoPerfil {
+    position: fixed;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+    width: 4vw;
+    height: 6vh;
+    top: 0vh;
+    right: 0.5vw;
+    color: black !important;
+}
+
+#botaoConsultar {
+    position: fixed;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+    width: 4vw;
+    height: 6vh;
+    top: 0vh;
+    left: 0.2vw;
+    color: black !important;
+}
+
+#botaoConfiguracao {
+    position: fixed;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+    width: 4vw;
+    height: 6vh;
+    top: 0vh;
+    right: 4vw;
+    color: black !important;
+}
+
+#botaoClientes {
+    position: fixed;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+    width: 4vw;
+    height: 6vh;
+    top: 0vh;
+    left: 4vw;
+    color: black !important;
+}
+#clientesIcon {
+    vertical-align: bottom !important;
+}
+
+#perfilIcon, #consultarIcon, #configuracaoIcon, #clientesIcon {
+    position: relative;
+    background-color: transparent !important;
+    border-color: transparent;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    transition: 0.3s;
+    line-height: 22px;
+    text-align: center;
+}
+
+#botaoPerfil:hover, #botaoConsultar:hover, #botaoConfiguracao:hover, #botaoClientes:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
