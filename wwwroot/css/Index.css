@@ -1,0 +1,30 @@
+﻿#cards {
+    position: absolute;
+    width: 60vw;
+    height: 50vh;
+    left: 20vw;
+    top: 25vh;
+}
+#primeiroCard{
+    position: absolute;
+    display: inline-block;
+    width:30%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+}
+#cardsMenores{
+    position: absolute;
+    display: inline-block;
+    top: 5%;
+    left: 40%;
+    width: 60%;
+    height: 95%;
+}
+#segundoCard, #terceiroCard, #quartoCard, #quintoCard{
+    display: inline-flex;
+    width: 45%;
+    height: 45%;
+    top: 5%;
+    left: 40%;
+}
