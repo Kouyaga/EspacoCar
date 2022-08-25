@@ -19,12 +19,24 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBdXRoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/ConsultarClientesVIEW.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXENvbnN1bHRhckNsaWVudGVzVklFVy5jc2h0bWw=
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/ConsultarClientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXENvbnN1bHRhckNsaWVudGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/VerClientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXFZlckNsaWVudGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/VerConfiguracoes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXFZlckNvbmZpZ3VyYWNvZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/VerPerfil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXFZlclBlcmZpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Shared/Error.cshtml]

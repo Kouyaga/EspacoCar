@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8CHrIZqW8NFQmusgj2cvPD8zTEcn2ZegiLppqfzHD6M=",
+  "Hash": "V3PgcwNpsBsVo7Vr764MQVafl0GKLVUgu5TEYcQFAbE=",
   "Source": "Projeto",
   "BasePath": "_content/Projeto",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "wwwroot\\css\\Auth.css"
     },
     {
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\Index.css",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "css/Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Index.css"
+    },
+    {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\Interface.css",
       "SourceId": "Projeto",
       "SourceType": "Discovered",
@@ -66,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Interface.css"
-    },
-    {
-      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\site.css",
-      "SourceId": "Projeto",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
-      "BasePath": "_content/Projeto",
-      "RelativePath": "css/site.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\favicon.ico",
@@ -119,6 +119,23 @@
       "OriginalItemSpec": "wwwroot\\icone.png"
     },
     {
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\js\\_Layout.js",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "js/_Layout.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\_Layout.js"
+    },
+    {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\js\\Auth.js",
       "SourceId": "Projeto",
       "SourceType": "Discovered",
@@ -151,23 +168,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Interface.js"
-    },
-    {
-      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\js\\site.js",
-      "SourceId": "Projeto",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
-      "BasePath": "_content/Projeto",
-      "RelativePath": "js/site.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

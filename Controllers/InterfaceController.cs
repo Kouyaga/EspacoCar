@@ -11,7 +11,21 @@ namespace Projeto.Controllers
             return View();
         }
         
-        public IActionResult ConsultarClientesVIEW()
+        public IActionResult ConsultarClientes()
+        {
+            return View();
+        }
+
+        public IActionResult VerConfiguracoes()
+        {
+            return View();
+        }
+
+        public IActionResult VerClientes()
+        {
+            return View();
+        }
+        public IActionResult VerPerfil()
         {
             return View();
         }
