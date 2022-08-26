@@ -30,9 +30,9 @@ body {
 }
 
     #barraSuperior:hover {
-        height: 7vw;
+        height: 4vw;
         transition: 0.3s;
-        background-color: rgb(115, 115, 115);
+        background-color: rgb(125, 125, 125);
     }
 @media only screen and (max-height: 900px) {
 
@@ -44,17 +44,6 @@ body {
         height: 6vh;
         top: 0vh;
         right: 4vw;
-        color: black !important;
-    }
-
-    #botaoConsultar {
-        position: fixed;
-        cursor: default;
-        outline: none;
-        width: 4vw;
-        height: 6vh;
-        top: 0vh;
-        left: 6vw;
         color: black !important;
     }
 
@@ -95,7 +84,7 @@ body {
         top: 8px !important;
     }
 
-    #perfilIcon, #homeIcon , #consultarIcon, #configuracaoIcon, #clientesIcon {
+    #perfilIcon, #homeIcon , #configuracaoIcon, #clientesIcon {
         position: absolute;
         background-color: transparent !important;
         border-color: transparent;
@@ -110,7 +99,7 @@ body {
         top: 5px;
     }
 
-        #perfilIcon:hover, #homeIcon:hover, #consultarIcon:hover, #configuracaoIcon:hover, #clientesIcon:hover {
+        #perfilIcon:hover, #homeIcon:hover, #configuracaoIcon:hover, #clientesIcon:hover {
             color: rgb(255, 255, 255);
             transition: 0.3s;
         }

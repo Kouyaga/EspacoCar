@@ -2,7 +2,7 @@
     login = $("#login").val();
     $.ajax({
         type: "POST",
-        url: document.location.origin + "/Home/VerificarLogin",
+        url: document.location.origin + "/Auth/VerificarLogin",
         data: { login },
         success: function (retorno) {
             if (retorno.ok) {
@@ -45,11 +45,11 @@
     })
 }
 
-function verificarSenha() {
+function VerificarSenha() {
     senha = $('#senha').val();
     $.ajax({
         type: "POST",
-        url: document.location.origin + "/Home/VerificarSenha",
+        url: document.location.origin + "/Auth/VerificarSenha",
         data: { senha },
         success: function (retorno) {
             if (retorno.ok) {
@@ -119,3 +119,17 @@ function mostrarSenha() {
         $('#botaoVerSenhaImagem').show();
     }
 }
+
+$("#senha").on('keydown', function (event) {
+    if (event.which === 13) {
+        event.preventDefault();
+        $("#botaoSenha").click();
+    }
+});
+
+$("#login").on('keydown', function (event) {
+    if (event.which === 13) {
+        event.preventDefault();
+        $("#botaoLogin").click();
+    }
+});

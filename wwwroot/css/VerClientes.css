@@ -1,0 +1,23 @@
+﻿#clientes {
+    position: absolute;
+    width: 80vw;
+    height: 70vh;
+    left: 10vw;
+    top: 17vh;
+    border: 1px solid black;
+}
+
+#listaClientes {
+    position: absolute;
+    width: 50vw;
+    height: 60vh;
+    right: 2.3vw;
+    top: 4.7vh;
+    border: 1px solid black;
+}
+
+#clientesInformacoes{
+    display: block;
+
+}
+
