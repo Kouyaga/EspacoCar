@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "V3PgcwNpsBsVo7Vr764MQVafl0GKLVUgu5TEYcQFAbE=",
+  "Hash": "A1OYuf9XvXR+1Kskb1pg4ICxqHg5kb/hJCRRTSZKW6g=",
   "Source": "Projeto",
   "BasePath": "_content/Projeto",
   "Mode": "Default",
@@ -68,12 +68,12 @@
       "OriginalItemSpec": "wwwroot\\css\\Index.css"
     },
     {
-      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\Interface.css",
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\VerClientes.css",
       "SourceId": "Projeto",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
       "BasePath": "_content/Projeto",
-      "RelativePath": "css/Interface.css",
+      "RelativePath": "css/VerClientes.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +82,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Interface.css"
+      "OriginalItemSpec": "wwwroot\\css\\VerClientes.css"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\favicon.ico",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Interface.js"
+    },
+    {
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\js\\VerClientes.js",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "js/VerClientes.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\VerClientes.js"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -1154,6 +1171,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\login.png"
+    },
+    {
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\silhouette.png",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "silhouette.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\silhouette.png"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\titulo.png",

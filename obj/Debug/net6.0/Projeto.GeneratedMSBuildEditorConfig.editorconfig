@@ -15,12 +15,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Home/Auth.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBdXRoLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/ConsultarClientes.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXENvbnN1bHRhckNsaWVudGVzLmNzaHRtbA==
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Auth/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/Index.cshtml]

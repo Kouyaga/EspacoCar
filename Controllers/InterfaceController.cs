@@ -10,12 +10,6 @@ namespace Projeto.Controllers
         {
             return View();
         }
-        
-        public IActionResult ConsultarClientes()
-        {
-            return View();
-        }
-
         public IActionResult VerConfiguracoes()
         {
             return View();
