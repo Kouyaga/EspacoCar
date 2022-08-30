@@ -18,6 +18,26 @@
 
 #clientesInformacoes{
     display: block;
-
 }
+
+#novoClienteInformacoes{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#novoClienteInformacoesForm{
+    position: absolute;
+    width: 27.5vw;
+    height: 69.5vh;
+}
+
+input{
+    width: 33%;
+    height: 50%; 
+}
+label{
+    font-size: 90%;
+    width: 15%;
+}
+
 
