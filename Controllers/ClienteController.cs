@@ -7,9 +7,14 @@ namespace Projeto.Controllers
 {
     public class ClienteController : Controller
     {
+        [HttpPost]
         public IActionResult AdicionarCliente(ClientePF dados)
         {
-            return Json(new {ok = true});
+            StreamWriter SW = new StreamWriter(@"C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\Data\Cliente.txt", true);
+            SW.WriteLine(dados.Nome + " " + dados.CPF + " " + dados.Sexo + " " + dados.DataDeNascimento + " " + dados.RG + " " + dados.Endereco + " " + dados.Telefones + " " + dados.Emails);
+            SW.Close();
+
+            return RedirectToAction("VerClientes", "Interface");
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿namespace Projeto.Models
+﻿
+namespace Projeto.Models
 {
     public class ClientePF
     {
