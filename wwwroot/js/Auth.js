@@ -25,7 +25,7 @@
                     cancelButtonColor: 'darkred',
                     confirmButtonColor: 'darkred',
                     confirmButtonText: 'Fechar',
-                    background: 'gray',
+                    background: '#517664',
                     timer: 5000,
                     timerProgressBar: true,
                     customClass: {
@@ -64,7 +64,7 @@ function VerificarSenha() {
                 cancelButtonColor: 'darkred',
                 confirmButtonColor: 'lightgreen',
                 confirmButtonText: 'Confirmar',
-                background: 'gray',
+                background: '#517664',
                 timer: 500,
                 timerProgressBar: true,
                 customClass: {
@@ -85,7 +85,7 @@ function VerificarSenha() {
                 cancelButtonColor: 'darkred',
                 confirmButtonColor: 'darkred',
                 confirmButtonText: 'Fechar',
-                background: 'gray',
+                background: '#517664',
                 timer: 2500,
                 timerProgressBar: true,
                 customClass: {

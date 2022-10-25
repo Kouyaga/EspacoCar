@@ -1,4 +1,5 @@
 ﻿@import url('file:///C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\wwwroot\css\Auth.css');
+
 body {
     position: relative;
     background-color: transparent;
@@ -9,7 +10,7 @@ body {
 }
 
 .fundo {
-    background-color: darkgray;
+    background-image: linear-gradient( #D6E5E3,#9FD8CB );
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -19,13 +20,14 @@ body {
 .itensLogin {
     position: relative;
     border-radius: 5%;
-    background-color: gray;
+    background-color: #517664;
     left: 37.5%;
     top: 25%;
     width: 25vw;
     height: 50%;
     z-index: 8;
     padding: 0%;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
 }
 
 .iconeDiv {
@@ -87,12 +89,12 @@ img.titulo {
 }
 
 #login {
-    background-color: darkgray;
+    background-color: white;
     position: absolute;
     border: 0.1vw solid;
-    border-radius: 2%;
+    border-radius: 3px;
     border-color: darkgray;
-    width: 50%;
+    width: 65%;
     height: 25%;
     z-index: 6;
     margin: 0%;
@@ -141,12 +143,12 @@ img.titulo {
 }
 
 #senha {
-    background-color: darkgray;
+    background-color: white;
     position: absolute;
     border: 0.1vw solid;
-    border-radius: 2%;
+    border-radius: 3px;
     border-color: darkgray;
-    width: 50%;
+    width: 65%;
     height: 25%;
     z-index: 6;
     margin: 0%;
@@ -215,6 +217,12 @@ img.titulo {
         transition: 0.3s;
     }
 
+    #botaoLogin {
+        width: 17%;
+        height: 50%;
+        top: 22%;
+        left: 75%;
+    }
 
     #botaoVerSenhaImagem {
         position: absolute;
@@ -232,19 +240,27 @@ img.titulo {
         left: 0%;
         display: none;
     }
+
+
+
+    #login, #fundoVerSenha, #senha, #fundoEsconderSenha {
+        height: 30%;
+    }
+
+    #botaoSenha {
+        background-color: transparent;
+        border-color: transparent;
+        cursor: pointer;
+        position: absolute;
+        width: 17%;
+        height: 50%;
+        top: 22%;
+        left: 75%;
+        display: none;
+    }
 }
 
-#botaoSenha {
-    background-color: transparent;
-    border-color: transparent;
-    cursor: pointer;
-    position: absolute;
-    width: 15%;
-    height: 42%;
-    top: 25%;
-    left: 80%;
-    display: none;
-}
+
 
 #botaoSenhaImagem {
     position: absolute;
@@ -280,7 +296,7 @@ img.titulo {
     width: 70% !important;
     font-family: Calibri !important;
     font-size: 14px !important;
-    color: black !important;
+    color: white !important;
     text-align: center;
     display: flex !important;
     flex-wrap: wrap !important;

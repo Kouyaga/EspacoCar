@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A1OYuf9XvXR+1Kskb1pg4ICxqHg5kb/hJCRRTSZKW6g=",
+  "Hash": "KErEg4hgDdIL6L0eGXsHDmlXGGS6pIF+eD10JjuEGiw=",
   "Source": "Projeto",
   "BasePath": "_content/Projeto",
   "Mode": "Default",
@@ -32,6 +32,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\_Layout.css"
+    },
+    {
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\AdicionarCliente.css",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "css/AdicionarCliente.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AdicionarCliente.css"
+    },
+    {
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\AlterarClientePF.css",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "css/AlterarClientePF.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AlterarClientePF.css"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\Auth.css",
@@ -68,12 +102,12 @@
       "OriginalItemSpec": "wwwroot\\css\\Index.css"
     },
     {
-      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\VerClientes.css",
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\ListaClientePF.css",
       "SourceId": "Projeto",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
       "BasePath": "_content/Projeto",
-      "RelativePath": "css/VerClientes.css",
+      "RelativePath": "css/ListaClientePF.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +116,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\VerClientes.css"
+      "OriginalItemSpec": "wwwroot\\css\\ListaClientePF.css"
+    },
+    {
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\ListaClientePJ.css",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "css/ListaClientePJ.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ListaClientePJ.css"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\favicon.ico",
@@ -136,6 +187,23 @@
       "OriginalItemSpec": "wwwroot\\js\\_Layout.js"
     },
     {
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\js\\AdicionarCliente.js",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "js/AdicionarCliente.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\AdicionarCliente.js"
+    },
+    {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\js\\Auth.js",
       "SourceId": "Projeto",
       "SourceType": "Discovered",
@@ -151,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Auth.js"
+    },
+    {
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\js\\Index.js",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "js/Index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Index.js"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\js\\Interface.js",
@@ -170,12 +255,12 @@
       "OriginalItemSpec": "wwwroot\\js\\Interface.js"
     },
     {
-      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\js\\VerClientes.js",
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\js\\ListaClientePF.js",
       "SourceId": "Projeto",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
       "BasePath": "_content/Projeto",
-      "RelativePath": "js/VerClientes.js",
+      "RelativePath": "js/ListaClientePF.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,7 +269,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\VerClientes.js"
+      "OriginalItemSpec": "wwwroot\\js\\ListaClientePF.js"
+    },
+    {
+      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\js\\ListaClientePJ.js",
+      "SourceId": "Projeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
+      "BasePath": "_content/Projeto",
+      "RelativePath": "js/ListaClientePJ.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ListaClientePJ.js"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

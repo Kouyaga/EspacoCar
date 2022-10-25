@@ -19,12 +19,36 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/ClientePF/AdicionarClientePF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBGXEFkaWNpb25hckNsaWVudGVQRi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/ClientePF/AlterarClientePF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBGXEFsdGVyYXJDbGllbnRlUEYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/ClientePJ/AdicionarClientePJ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBKXEFkaWNpb25hckNsaWVudGVQSi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/ClientePJ/AlterarClientePJ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBKXEFsdGVyYXJDbGllbnRlUEouY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Cliente/AdicionarCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxBZGljaW9uYXJDbGllbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/VerClientes.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXFZlckNsaWVudGVzLmNzaHRtbA==
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/ListaClientePF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXExpc3RhQ2xpZW50ZVBGLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/ListaClientePJ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXExpc3RhQ2xpZW50ZVBKLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/VerConfiguracoes.cshtml]

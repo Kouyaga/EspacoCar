@@ -1,107 +1,60 @@
-﻿html {
-    width: 100vw;
-    height: 100vh;
-    z-index: 11;
-}
-
+﻿
 body {
     background-color: transparent;
-    width: 100vw;
-    height: 100vh;
-    z-index: 10;
-    margin: 0px;
-}
-
-.fundo {
-    background-color: lightgray;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    z-index: 9;
 }
 
 #barraSuperior {
-    background-color: rgb(101, 101, 101);
-    position: fixed;
-    left: 0%;
-    width: 100vw;
-    height: 6vh;
+    background-color: #9FD8CB;
     transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
     #barraSuperior:hover {
-        height: 4vw;
         transition: 0.3s;
-        background-color: rgb(125, 125, 125);
+        background-color: #517664;
     }
-@media only screen and (max-height: 900px) {
 
     #botaoPerfil {
-        position: fixed;
         cursor: default;
         outline: none;
-        width: 4vw;
-        height: 6vh;
-        top: 0vh;
-        right: 4vw;
         color: black !important;
+
     }
 
     #botaoConfiguracao {
-        position: fixed;
         cursor: default;
         outline: none;
-        width: 4vw;
-        height: 6vh;
-        top: 0vh;
-        right: 0.5vw;
         color: black !important;
     }
 
-    #botaoClientes {
-        position: fixed;
+    #botaoAdicionar {
         cursor: default;
         outline: none;
-        width: 4vw;
-        height: 6vh;
-        top: -0.2vh;
-        left: 3vw;
+        color: black !important;
+
+    }
+
+    #botaoHome {
+        cursor: default;
+        outline: none;
         color: black !important;
     }
 
-    #botaoHome{
-    position: fixed;
-    cursor: default;
-    outline: none;
-    width: 4vw;
-    height: 6vh;
-    top: 0.1vh;
-    left:-0.5vw;
-    color: black !important;
-}
 
-    #clientesIcon {
-        top: 8px !important;
-    }
-
-    #perfilIcon, #homeIcon , #configuracaoIcon, #clientesIcon {
-        position: absolute;
+    #perfilIcon, #homeIcon, #configuracaoIcon, #adicionarIcon {
         background-color: transparent !important;
-        border-color: transparent;
-        outline: none;
-        cursor: pointer;
-        font-size: 170%;
-        transition: 0.3s;
-        line-height: 12px;
-        text-align: center;
-        transition: 0.3s;
-        left: 18px;
-        top: 5px;
+        border-color: transparent !important;
+        outline: none !important;
+        cursor: pointer !important;
+        font-size: 170% !important;
+        transition: 0.3s !important;
+        line-height: 12px !important;
+        text-align: center !important;
+        transition: 0.3s !important;
     }
 
-        #perfilIcon:hover, #homeIcon:hover, #configuracaoIcon:hover, #clientesIcon:hover {
-            color: rgb(255, 255, 255);
+        #perfilIcon:hover, #homeIcon:hover, #configuracaoIcon:hover, #adicionarIcon:hover {
+            color: white;
             transition: 0.3s;
         }
 
-}

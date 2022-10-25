@@ -1,80 +1,19 @@
-﻿@{
+﻿
+@{
     ViewData["Title"] = "Espaço Car";
 }
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EspaçoCar</title>
-    <link rel = "stylesheet" href = "/css/Index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    <script src = "~/js/Interface.js"></script>
-</head>
-<body>
-    <main id = "cards">
-        <div id = "primeiroCard">
-            <div id = "informacoesPrimeiroCard">
-                <img src = "~/silhouette.png" id = "primeiroCardImagem"/>
-                <ul type = "none" id = "listaPrimeiroCard">
-                    <li id = "nomePrimeiroCard">Nome: </li>
-                    <li id = "cpfPrimeiroCard">CPF: </li>
-                    <li id = "entradaPrimeiroCard">Entrada: </li>
-                    <li id = "saidaPrimeiroCard">Saída: </li>
-                </ul>
-            </div>
-        </div>
-     <div id = "cardsMenores">
-        <div id = "segundoCard">
-            <div id = "informacoesSegundoCard">
-                <img src = "~/silhouette.png" id = "segundoCardImagem"/>
-                <ul type = "none" id = "listaSegundoCard">
-                    <li id = "nomeSegundoCard">Nome: </li>
-                    <li id = "cpfSegundoCard">CPF: </li>
-                    <li id = "entradaSegundoCard">Entrada: </li>
-                    <li id = "saidaSegundoCard">Saída: </li>
-                </ul>
-            </div>
-        </div>
-        <div id = "terceiroCard">
-            <div id = "informacoesTerceiroCard">
-                <img src = "~/silhouette.png" id = "terceiroCardImagem"/>
-                <ul type = "none" id = "listaTerceiroCard">
-                    <li id = "nomeTerceiroCard">Nome:  </li>
-                    <li id = "cpfTerceiroCard">CPF: </li>
-                    <li id = "entradaTerceiroCard">Entrada: </li>
-                    <li id = "saidaTerceiroCard">Saída: </li>
-                </ul>
-            </div>
-        </div>
-        <div id = "quartoCard">
-            <div id = "informacoesQuartoCard">
-                <img src = "~/silhouette.png" id = "quartoCardImagem"/>
-                <ul type = "none" id = "listaQuartoCard">
-                    <li id = "nomeQuartoCard">Nome:  </li>
-                    <li id = "cpfQuartoCard">CPF: </li>
-                    <li id = "entradaQuartoCard">Entrada: </li>
-                    <li id = "saidaQuartoCard">Saída: </li>
-                </ul>
-            </div>
-        </div>
-        <div id = "quintoCard">
-            <div id = "informacoesQuintoCard">
-                <img src = "~/silhouette.png" id = "quintoCardImagem"/>
-                <ul type = "none" id = "listaQuintoCard">
-                    <li id = "nomeQuintoCard">Nome:  </li>
-                    <li id = "cpfQuintoCard">CPF: </li>
-                    <li id = "entradaQuintoCard">Entrada: </li>
-                    <li id = "saidaQuintoCard">Saída: </li>
-                </ul>
-            </div>
-        </div>
-     </div>
-    </main>
-</body>
-</html>
+
+<link href="~/css/Index.css" rel="stylesheet" />
+<script src="~/js/Index.js"></script>
+
+
+<div id = "ListaClientePFDiv" class = "p-5">
+    <partial name = "~/Views/Interface/ListaClientePF.cshtml" model = "@ViewBag.ListaClientePF"/>
+</div>
+
+<div class = "container align-items-center visually-hidden" id = "ListaClientePJDiv">
+    <partial name = "~/Views/Interface/ListaClientePJ.cshtml" model = "@ViewBag.ListaClientePJ"/>
+</div>
+
+
