@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Projeto.Models.ClientePJ>;
+
+
+<link rel = "stylesheet" href = "~/css/ListaClientePJ.css" />
+
+<div class="divDataTablePJ">
+    <table id = "listaClientesPJ" class = "order-column hover">
+        <i class="bi bi-search" id = "pesquisaTabelaIcone"></i>
+    <thead id = "listaClientesHead">
+        <tr>
+            <th style = "border-radius: 8px 0px 0px 0px">CNPJ</th>
+            <th id = "nomeHead">RazaoSocial</th>
+            <th style = "border-radius: 0px 8px 0px 0px">NomeFantasia</th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                         <td>@Html.DisplayFor(cliente => item.CNPJ)</td>
+                         <td>@Html.DisplayFor(cliente => item.RazaoSocial)</td>
+                         <td>@Html.DisplayFor(cliente => item.NomeFantasia)</td>
+                </tr>
+            }
+    </tbody>
+    <tfoot>
+    </tfoot>
+</table>
+</div>
+<script src = "~/js/ListaClientePJ.js"></script>
+

@@ -1,18 +1,19 @@
 ﻿
+
 @{
     ViewData["Title"] = "Espaço Car";
 }
 
-
+<head>
 <link href="~/css/Index.css" rel="stylesheet" />
 <script src="~/js/Index.js"></script>
+</head>
 
-
-<div id = "ListaClientePFDiv" class = "p-5">
+<div id = "ListaClientePFDiv">
     <partial name = "~/Views/Interface/ListaClientePF.cshtml" model = "@ViewBag.ListaClientePF"/>
 </div>
 
-<div class = "container align-items-center visually-hidden" id = "ListaClientePJDiv">
+<div id = "ListaClientePJDiv">
     <partial name = "~/Views/Interface/ListaClientePJ.cshtml" model = "@ViewBag.ListaClientePJ"/>
 </div>
 

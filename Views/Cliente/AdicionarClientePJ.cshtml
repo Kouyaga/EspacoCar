@@ -1,0 +1,38 @@
+﻿@model Projeto.Models.ClientePJ
+
+<label for="CNPJ" id="CNPJLabel">CNPJ<span style = "color: red">*</span></label>
+@Html.TextBoxFor(model => model.CNPJ, new {required = "required", @class = "cnpj", id = "CPNJ"})
+
+<label for="RazaoSocial" id="RazaoSocialLabel">Razão Social<span style = "color: red">*</span></label>
+@Html.TextBoxFor(model => model.RazaoSocial, new {required = "required", id = "razaoSocial", maxlength = "50"})
+
+<label for="DataDeNascimento" id="DataDeNascimentoLabel">Data De Nascimento</label>
+@Html.TextBoxFor(model => model.NomeFantasia, new { maxlength = "50" })
+
+<label for="Endereco" id="EnderecoLabel">Endereco</label>
+@Html.TextBoxFor(model => model.Endereco,new {maxlength = "50"})
+
+<label for="Telefones" id="TelefonesLabel">Telefone</label>
+@Html.TextBoxFor(model => model.Telefones, new {id = "NovoClienteTelefone", @class = "phone_with_ddd"})
+
+<label for="Email" id="EmailLabel">Email</label>
+@Html.TextBoxFor(model => model.Emails,new {maxlength = "50"})
+
+<button type="submit" class="btn btn-outline-success" id="BotaoAdicionarPJ">Adicionar</button>
+
+<div id = "pessoaFisicaFlipDiv" class = "flip-card">
+            <div id = "fundoPessoaFisicaFlip" class="flip-card-inner">
+                <div id = "pessoaFisica" class="flip-card-front">
+                    <button type = "button" class="fa-solid fa-user-tie w-100" id = "botaoPessoaJuridica" onclick = "ExibirPF()"></button>
+                    <label for = "botaoPessoaJuridica" id = "pessoaJuridicaLabel"><b>Pessoa Juridica</b></label>
+                </div>
+                <div id= "pessoaFisicaFlip" class="flip-card-back">
+                    <button type = "button" class="fa-solid fa-user" id = "botaoPessoaFisicaFlip" onclick = "ExibirPF()"></button>
+                    <label for = "botaoPessoFisicaFlip" id = "pessoaFisicaLabel"><b>Pessoa Fisica</b></label>
+                </div>
+            </div>
+</div>
+ <script src = "~/js/AdicionarCliente.js"></script>
+
+
+

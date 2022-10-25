@@ -1,0 +1,47 @@
+﻿@model Projeto.ViewModel.ClientePFViewModel
+
+<label for="CPF" id="CPFLabel">CPF<span style="color: red">*</span></label>
+@Html.TextBoxFor(model => model.CPF, new {@required = "", @class = "cpf", id = "CPF"})
+
+<label for="Nome" id="NomeLabel">Nome<span style = "color: red">*</span></label>
+@Html.TextBoxFor(model => model.Nome, new {@required = "", id = "nome", maxlength = "50"})
+
+<label for="Sexo" id="SexoLabel">Sexo</label>
+@Html.RadioButtonFor(model => model.Sexo, "Masculino", new {id = "MasculinoRadio"})
+<label for="Masculino" id="MasculinoLabel">Masculino</label>
+@Html.RadioButtonFor(model => model.Sexo, "Feminino", new {id = "FemininoRadio"})
+<label for="Feminino" id="FemininoLabel">Feminino</label>
+@Html.RadioButtonFor(model => model.Sexo, "Outro", new {id = "OutroRadio"})
+<label for="Outro" id="OutroLabel">Outro</label>
+
+<label for="DataDeNascimento" id="DataDeNascimentoLabel">Data De Nascimento</label>
+@Html.TextBoxFor(model => model.DataDeNascimento, new { id = "NovoClienteDataDeNascimento" , @class = "date"})
+
+<label for="RG" id="RGLabel">RG</label>
+@Html.TextBoxFor(model => model.RG, new {id = "RgNovoCliente", @class = "rg"})
+
+<label for="Endereco" id="EnderecoLabel">Endereco</label>
+@Html.TextBoxFor(model => model.Endereco,new {maxlength = "50"})
+
+<label for="Telefones" id="TelefonesLabel">Telefone</label>
+@Html.TextBoxFor(model => model.Telefones, new {id = "NovoClienteTelefone", @class = "phone_with_ddd"})
+
+<label for="Email" id="EmailLabel">Email</label>
+@Html.TextBoxFor(model => model.Emails,new {length = "50"})
+
+<button type="submit" class="btn btn-outline-success" id="BotaoAdicionarPF">Adicionar</button>
+
+        <div id = "pessoaJuridicaFlipDiv" class = "flip-card">
+            <div id = "fundoPessoaJuridicaFlip" class="flip-card-inner">
+                <div id = "pessoaJuridica" class="flip-card-front">
+                    <button type = "button" class="fa-solid fa-user" id = "botaoPessoaFisica" onclick = "ExibirPJ()"></button>
+                    <label for = "botaoPessoaJuridica" id = "pessoaFisicaLabel"><b>Pessoa Fisica</b></label>
+                </div>
+                <div id= "pessoaJuridicaFlip" class="flip-card-back">
+                    <button type = "button" class="fa-solid fa-user-tie" id = "botaoPessoaJuridicaFlip" onclick = "ExibirPJ()"></button>
+                    <label for = "botaoPessoFisicaFlip" id = "pessoaJuridicaLabel"><b>Pessoa Juridica</b></label>
+                </div>
+            </div>
+        </div>
+
+<script src = "~/js/AdicionarCliente.js"></script>

@@ -1,10 +1,31 @@
-﻿
+﻿html {
+    width: 100vw;
+    height: 100vh;
+    z-index: 11;
+}
+
 body {
     background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    margin: 0px;
+}
+
+.fundo {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 9;
 }
 
 #barraSuperior {
     background-color: #9FD8CB;
+    position: fixed;
+    left: 0%;
+    width: 100vw;
+    height: 6vh;
     transition: 0.3s;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -13,35 +34,58 @@ body {
         transition: 0.3s;
         background-color: #517664;
     }
+@media only screen and (max-height: 900px) {
 
     #botaoPerfil {
+        position: fixed;
         cursor: default;
         outline: none;
+        width: 4vw;
+        height: 6vh;
+        top: 0vh;
+        right: 4vw;
         color: black !important;
-
     }
 
     #botaoConfiguracao {
+        position: fixed;
         cursor: default;
         outline: none;
+        width: 4vw;
+        height: 6vh;
+        top: 0vh;
+        right: 0.5vw;
         color: black !important;
     }
 
     #botaoAdicionar {
+        position: fixed;
         cursor: default;
         outline: none;
+        width: 4vw;
+        height: 6vh;
+        top: -0.2vh;
+        left: 3vw;
         color: black !important;
-
     }
 
     #botaoHome {
+        position: fixed;
         cursor: default;
         outline: none;
+        width: 4vw;
+        height: 6vh;
+        top: 0.1vh;
+        left: -0.5vw;
         color: black !important;
     }
 
+    #adicionarIcon {
+        top: 8px !important;
+    }
 
     #perfilIcon, #homeIcon, #configuracaoIcon, #adicionarIcon {
+        position: absolute !important;
         background-color: transparent !important;
         border-color: transparent !important;
         outline: none !important;
@@ -51,6 +95,8 @@ body {
         line-height: 12px !important;
         text-align: center !important;
         transition: 0.3s !important;
+        left: 18px !important;
+        top: 5px;
     }
 
         #perfilIcon:hover, #homeIcon:hover, #configuracaoIcon:hover, #adicionarIcon:hover {
@@ -58,3 +104,4 @@ body {
             transition: 0.3s;
         }
 
+}

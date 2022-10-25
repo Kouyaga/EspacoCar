@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KErEg4hgDdIL6L0eGXsHDmlXGGS6pIF+eD10JjuEGiw=",
+  "Hash": "JioSrnWXJ3qbAOyXo1bO4DSZ83MCMzo1RQir8MZu5zA=",
   "Source": "Projeto",
   "BasePath": "_content/Projeto",
   "Mode": "Default",
@@ -49,23 +49,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\AdicionarCliente.css"
-    },
-    {
-      "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\AlterarClientePF.css",
-      "SourceId": "Projeto",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\",
-      "BasePath": "_content/Projeto",
-      "RelativePath": "css/AlterarClientePF.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\AlterarClientePF.css"
     },
     {
       "Identity": "C:\\Users\\leonardo.mathias\\Desktop\\Leonardo\\C#\\EspacoCar-main\\wwwroot\\css\\Auth.css",

@@ -13,20 +13,20 @@
     <link rel="stylesheet" href="~/css/_Layout.css"/> 
 </head>
 <body>
-    <main class = "container-fluid">
-        <div id = "barraSuperior" class = "row align-items-center">
-            <a role = "button" id = "botaoHome" asp-action = "Index" asp-controller = "Interface" class = "col-sm-1">
+    <main class = "fundo">
+        <div id = "barraSuperior">
+            <a role = "button" id = "botaoHome" asp-action = "Index" asp-controller = "Interface">
                 <i class = "bi bi-house-fill" id = "homeIcon" title = "Home"></i>
             </a>
-            <a role = "button" id ="botaoAdicionar" asp-action = "AdicionarCliente" asp-controller = "Cliente" class = "col-sm-1">
+            <a role = "button" id ="botaoAdicionar" asp-action = "AdicionarCliente" asp-controller = "Cliente">
                 <i class = "bi bi-person-plus-fill" id = "adicionarIcon"  title = "Adicionar Cliente"></i>
             </a>
-            <a role = "button" id = "botaoPerfil" asp-action = "VerPerfil" asp-controller = "Interface" class = "col-sm-1"> 
+            <a role = "button" id = "botaoPerfil" asp-action = "VerPerfil" asp-controller = "Interface">
                 <i class="bi bi-person-circle fa-3x" id = "perfilIcon"  title = "Perfil"></i>
             </a>
-            <a role = "button" id = "botaoConfiguracao" asp-action = "VerConfiguracoes" asp-controller = "Interface" class = "col-sm-1"> 
+            <a role = "button" id = "botaoConfiguracao" asp-action = "VerConfiguracoes" asp-controller = "Interface"> 
                 <i class="bi bi-gear-fill fa-3x" id = "configuracaoIcon"  title = "Configurações"></i>                
-            </a>
+            </a> 
         </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -35,6 +35,7 @@
     <script src = "https://kit.fontawesome.com/60ed922642.js" crossorigin="anonymous"></script>
     <script src = "//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/dt-1.12.1/b-2.2.3/b-colvis-2.2.3/b-html5-2.2.3/r-2.3.0/datatables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js" integrity="sha512-C1zvdb9R55RAkl6xCLTPt+Wmcz6s+ccOvcr6G57lbm8M2fbgn2SUjUJbQ13fEyjuLViwe97uJvwa1EUf4F1Akw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
             @RenderBody()
     </main>

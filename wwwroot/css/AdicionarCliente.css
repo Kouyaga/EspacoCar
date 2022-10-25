@@ -1,0 +1,139 @@
+﻿#cardAdicionarCliente {
+    width: 30%;
+    position: relative;
+    height: 80%;
+    left: 35%;
+    top: 10%;
+    border: 0.2vw solid black;
+    border-radius: 1%;
+    margin: 0%;
+    background-color: #D6E5E3;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#informacoesNovoClientePF{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 3%;
+    height: 45% !important;
+    width: 94% !important;
+    top: 50% !important;
+}
+label{
+    width:100%;
+    left: 10%;
+}
+input{
+    width: 100%;
+    left: 10%;
+    border: 0.1px solid;
+    border-radius: 4px;
+}
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0; 
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield; /* Firefox */
+    }
+
+#Sexo{
+    left: 50%;
+    width: 10%;
+}
+
+#MasculinoRadio, #FemininoRadio, #OutroRadio{
+    width: 5%;
+    text-align: end;
+}
+
+#MasculinoLabel, #FemininoLabel, #OutroLabel{
+    width: 23%;
+    border: 10px hidden;
+    text-align: initial;
+
+}
+
+input:required{
+    border: 0.3px solid red;
+    border-radius: 4px;
+}
+
+input:focus{
+    outline: white;
+}
+
+#BotaoAdicionarPF, #BotaoAdicionarPJ{
+    margin-top: 2%;
+    margin-left: 39%;
+}
+
+#informacoesNovoClientePJ {
+    display: none;
+    flex-flow: row wrap !important;
+    margin: 3%;
+    height: 45% !important;
+    width: 94% !important;
+    top: 50% !important;
+}
+
+#botaoPessoaJuridica, #botaoPessoaFisicaFlip, #botaoPessoaFisica, #botaoPessoaJuridicaFlip{
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+
+}
+/*FLIP DO BOTAO*/
+.flip-card {
+    background-color: transparent;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    border: none;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    border: none;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+    border: none;
+}
+
+.flip-card-front {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+.flip-card-back {
+    background-color: transparent;
+    color: black;
+    transform: rotateY(180deg);
+    border: none;
+}
+
+#pessoaFisicaLabel, #pessoaJuridicaLabel{
+    position: absolute !important;
+    left: 100%;
+    top: -20%;
+}

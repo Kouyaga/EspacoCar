@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Views",
+    "\\Views\\Interface"
   ],
+  "SelectedNode": "\\Views",
   "PreviewInSolutionExplorer": false
 }

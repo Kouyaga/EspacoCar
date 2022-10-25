@@ -8,73 +8,73 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Projeto
 build_property.RootNamespace = Projeto
-build_property.ProjectDir = C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main\
+build_property.ProjectDir = C:\Users\leonardo.mathias\source\repos\Kouyaga\EspacoCar\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\leonardo.mathias\Desktop\Leonardo\C#\EspacoCar-main
+build_property.MSBuildProjectDirectory = C:\Users\leonardo.mathias\source\repos\Kouyaga\EspacoCar
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Auth/Home.cshtml]
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Auth/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/ClientePF/AdicionarClientePF.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBGXEFkaWNpb25hckNsaWVudGVQRi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/ClientePF/AlterarClientePF.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBGXEFsdGVyYXJDbGllbnRlUEYuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/ClientePJ/AdicionarClientePJ.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBKXEFkaWNpb25hckNsaWVudGVQSi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/ClientePJ/AlterarClientePJ.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVBKXEFsdGVyYXJDbGllbnRlUEouY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Cliente/AdicionarCliente.cshtml]
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Cliente/AdicionarCliente.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxBZGljaW9uYXJDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/Index.cshtml]
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Cliente/AdicionarClientePF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxBZGljaW9uYXJDbGllbnRlUEYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Cliente/AdicionarClientePJ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxBZGljaW9uYXJDbGllbnRlUEouY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Cliente/AlterarClientePF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxBbHRlcmFyQ2xpZW50ZVBGLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Cliente/AlterarClientePJ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxBbHRlcmFyQ2xpZW50ZVBKLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Interface/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/ListaClientePF.cshtml]
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Interface/ListaClientePF.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXExpc3RhQ2xpZW50ZVBGLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/ListaClientePJ.cshtml]
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Interface/ListaClientePJ.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXExpc3RhQ2xpZW50ZVBKLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/VerConfiguracoes.cshtml]
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Interface/VerConfiguracoes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXFZlckNvbmZpZ3VyYWNvZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Interface/VerPerfil.cshtml]
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Interface/VerPerfil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW50ZXJmYWNlXFZlclBlcmZpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Shared/Error.cshtml]
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Shared/_Layout.cshtml]
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/_ViewImports.cshtml]
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/leonardo.mathias/Desktop/Leonardo/C\#/EspacoCar-main/Views/_ViewStart.cshtml]
+[C:/Users/leonardo.mathias/source/repos/Kouyaga/EspacoCar/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

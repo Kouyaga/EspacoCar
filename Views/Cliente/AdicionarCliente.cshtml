@@ -1,0 +1,22 @@
+﻿@model Projeto.Models.ClientePF
+
+
+<body>
+  <link rel="stylesheet" href="~/css/AdicionarCliente.css">
+  <main id="cardAdicionarCliente">
+    <div id="informacoesNovoClientePF">
+                @using (Html.BeginForm("AdicionarNovoClientePF", "ClientePF", FormMethod.Post, new {id = "adicionarClientePFForm"}))
+                {
+                @Html.Partial("AdicionarClientePF")
+                }
+    </div>
+    <div id="informacoesNovoClientePJ">
+            @using (Html.BeginForm("AdicionarNovoClientePJ", "ClientePJ", FormMethod.Post, new { id = "adicionarClientePJForm" }))
+                {
+                @Html.Partial("AdicionarClientePJ")
+                }
+    </div>
+  </main>
+</body>
+
+

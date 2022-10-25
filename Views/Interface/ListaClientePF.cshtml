@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Projeto.ViewModel.ClientePFViewModel>;
+
+
+<link rel = "stylesheet" href = "~/css/ListaClientePF.css" />
+
+<div class="divDataTablePF">
+    <table id = "listaClientesPF" class = "order-column hover">
+        <i class="bi bi-search" id = "pesquisaTabelaIcone"></i>
+    <thead id = "listaClientesHead">
+        <tr>
+            <th style = "border-radius: 8px 0px 0px 0px">CPF</th>
+            <th id = "nomeHead">Nome</th>
+            <th>RG</th>
+            <th></th>
+            <th style = "border-radius: 0px 8px 0px 0px"></th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                        <td>@Html.DisplayFor(cliente => item.CPF)</td>
+                        <td>@Html.DisplayFor(cliente => item.Nome)</td>
+                        <td>@Html.DisplayFor(cliente => item.RG)</td>
+                        <td id = "botaoAlterar"><button class="btn btn-warning" onclick = "ExibirDadosClientePF">Alterar</button></td>
+                        <td id = "botaoExcluir"><button class="btn btn-danger">Excluir</button></td>
+                </tr>
+            }
+    </tbody>
+</table>
+</div>
+<script src = "~/js/ListaClientePF.js"></script>
